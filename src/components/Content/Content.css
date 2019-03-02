@@ -1,0 +1,4 @@
+.contentbox {
+    grid-area: content;
+    background-color: var(--bgcolor-content);
+}

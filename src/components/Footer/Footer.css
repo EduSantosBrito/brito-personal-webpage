@@ -1,0 +1,28 @@
+.footerbox {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "consideration social";
+    background-color: var(--secundary-blue);
+}
+.footerbox-h1 {
+    grid-area: consideration;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-family: var(--secundary-font-family);
+    color: var(--font-color);
+}
+.socialbox {
+    grid-area: social;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialbox-img {
+    width: 41px;
+    height: 41px;
+    margin: 0px 15px;
+}

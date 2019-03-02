@@ -1,0 +1,62 @@
+.homepagebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homepagebox-h1 {
+    color: var(--font-color);
+    font-size: 60px;
+    font-family: var(--main-font-family);
+    margin-top: 30px;
+}
+
+.homepagebox-h2 {
+    margin-bottom: 15px;
+    color: var(--font-color);
+    font-size: 30px;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+}
+
+.homepagebox-img {
+    width: 450px;
+    height: 240px;
+}
+
+.homepagebox-button {
+    outline: none;
+    padding: 10px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: var(--secundary-font-family);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.homepagebox-button--primary {
+    border: 1px solid var(--main-blue);
+    background-color: var(--main-blue);
+    color: var(--text-dark-bg-color);
+}
+
+.homepagebox-button--primary:hover{
+    transition: 0.4s ease;
+    border: 1px solid var(--main-blue);
+    background-color: transparent;
+    color: var(--main-blue);
+}
+
+.homepagebox-button--inverted {
+    border: 1px solid var(--main-blue);
+    background-color: transparent;
+    color: var(--main-blue);
+}
+
+.homepagebox-button--inverted:hover {
+    transition: 0.4s ease;
+    border: 1px solid var(--main-blue);
+    background-color: var(--main-blue);
+    color: var(--text-dark-bg-color);
+}
