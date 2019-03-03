@@ -8,9 +8,15 @@
 	--cssicon-color: #1572B6;
 	--htmlicon-color: #E34F26;
 	--reacticon-color: #61DAFB;
+	--facebookicon-color: #3B5998;
+	--githubicon-color: #181717;
+	--twittericon-color: #1DA1F2;
 	--text-dark-bg-color: #FFFFFF;
+	--color-shadow: rgba(0, 0, 0, 0.25);
+	--color-hover-menu: rgba(255,255,255,0.3);
 	--main-font-family: 'Open Sans', sans-serif;
 	--secundary-font-family: 'Noto Sans', sans-serif;
+	 
 }
 
 
@@ -63,14 +69,4 @@ table {
 	border-spacing: 0;
 }
 
-.websiteblock {
-	width: 100%;
-	height: 100%;
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	grid-template-rows: 4fr 1fr; 
-	grid-template-areas: 
-	"navbar content"
-	"navbar footer";
-}
 

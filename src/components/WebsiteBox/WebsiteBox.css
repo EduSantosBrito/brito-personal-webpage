@@ -1,0 +1,11 @@
+.websitebox {
+	width: 80%;
+	height: 80%;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 4fr 1fr; 
+	grid-template-areas: 
+	"navbar content"
+	"navbar footer";
+	box-shadow: 14px 14px 27px var(--color-shadow);
+}

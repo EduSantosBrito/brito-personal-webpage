@@ -15,7 +15,11 @@ body {
 
 #root {
 	height: 100%;
-	width: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #9CB6D2 25%, #9E9ADF 75%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {

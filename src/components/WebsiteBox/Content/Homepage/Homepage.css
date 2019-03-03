@@ -7,7 +7,7 @@
 
 .homepagebox-h1 {
     color: var(--font-color);
-    font-size: 60px;
+    font-size: 50px;
     font-family: var(--main-font-family);
     margin-top: 30px;
 }
@@ -21,8 +21,8 @@
 }
 
 .homepagebox-img {
-    width: 450px;
-    height: 240px;
+    width: 350px;
+    height: auto;
 }
 
 .homepagebox-button {
@@ -35,14 +35,15 @@
     margin-top: 15px;
 }
 
+
 .homepagebox-button--primary {
     border: 1px solid var(--main-blue);
     background-color: var(--main-blue);
     color: var(--text-dark-bg-color);
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .homepagebox-button--primary:hover{
-    transition: 0.4s ease;
     border: 1px solid var(--main-blue);
     background-color: transparent;
     color: var(--main-blue);
@@ -52,10 +53,10 @@
     border: 1px solid var(--main-blue);
     background-color: transparent;
     color: var(--main-blue);
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .homepagebox-button--inverted:hover {
-    transition: 0.4s ease;
     border: 1px solid var(--main-blue);
     background-color: var(--main-blue);
     color: var(--text-dark-bg-color);

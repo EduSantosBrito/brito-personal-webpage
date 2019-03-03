@@ -15,6 +15,9 @@
     font-family: var(--secundary-font-family);
     color: var(--font-color);
 }
+.footerbox-span {
+    padding: 0px 5px;
+}
 .socialbox {
     grid-area: social;
     display: flex;
@@ -22,7 +25,7 @@
     justify-content: center;
 }
 .socialbox-img {
-    width: 41px;
-    height: 41px;
+    width: 27px;
+    height: 27px;
     margin: 0px 15px;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Homepage.css';
-import programmerdraw from '../../../assets/images/programmer-draw.svg';
+import programmerdraw from '../../../../assets/images/programmer-draw.svg';
 
 class Homepage extends Component {
     render() {
