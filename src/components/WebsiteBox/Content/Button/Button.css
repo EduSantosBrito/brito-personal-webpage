@@ -1,0 +1,36 @@
+.button {
+    outline: none;
+    padding: 10px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: var(--secundary-font-family);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+.button--primary {
+    border: 1px solid var(--main-blue);
+    background-color: var(--main-blue);
+    color: var(--text-dark-bg-color);
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.button--primary:hover{
+    border: 1px solid var(--main-blue);
+    background-color: transparent;
+    color: var(--main-blue);
+}
+
+.button--inverted {
+    border: 1px solid var(--main-blue);
+    background-color: transparent;
+    color: var(--main-blue);
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.button--inverted:hover {
+    border: 1px solid var(--main-blue);
+    background-color: var(--main-blue);
+    color: var(--text-dark-bg-color);
+}

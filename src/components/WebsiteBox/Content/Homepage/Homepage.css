@@ -25,39 +25,3 @@
     height: auto;
 }
 
-.homepagebox-button {
-    outline: none;
-    padding: 10px 35px;
-    border-radius: 50px;
-    cursor: pointer;
-    font-family: var(--secundary-font-family);
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-
-.homepagebox-button--primary {
-    border: 1px solid var(--main-blue);
-    background-color: var(--main-blue);
-    color: var(--text-dark-bg-color);
-    transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-.homepagebox-button--primary:hover{
-    border: 1px solid var(--main-blue);
-    background-color: transparent;
-    color: var(--main-blue);
-}
-
-.homepagebox-button--inverted {
-    border: 1px solid var(--main-blue);
-    background-color: transparent;
-    color: var(--main-blue);
-    transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-.homepagebox-button--inverted:hover {
-    border: 1px solid var(--main-blue);
-    background-color: var(--main-blue);
-    color: var(--text-dark-bg-color);
-}

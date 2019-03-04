@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import WebsiteBox from './components/WebsiteBox/WebsiteBox';
+import { BrowserRouter } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <WebsiteBox></WebsiteBox>
+      <BrowserRouter>
+        <WebsiteBox></WebsiteBox>
+      </BrowserRouter>
     );
   }
 }
